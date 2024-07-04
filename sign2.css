@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(123, 104, 125);
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    max-width: 900px;
+    width: 100%;
+}
+form{
+    display: block;
+    padding: 8px 16px;
+    flex-basis: 70%;
+    flex-shrink: 2;
+}
+
+.img{
+    max-width: 225px;
+    width: 100%;
+    background-color: rgba(180, 196, 53,0.8);
+    color:white;
+    text-align: center;
+    font-family: 'Poppins';
+    word-spacing: 2px;
+}
+label,input{
+    display: block;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+label{
+    color: lightgray;
+    text-transform: uppercase;
+    line-height: 1.5px;
+    font-size: 12px;
+    padding: 12px;
+}
+input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(166, 163, 163);
+    margin: 12px auto;
+    width: 250px;
+}
+p{
+    color: lightgray;
+    text-align: center;
+    font-size: 12px;
+}
+form button{
+    display: block;
+    padding: 8px 32px;
+    border-radius: 16px;
+    margin: 16px;
+    width: 250px;
+    border: 2px solid;
+    font-size: 15px;
+    margin: 36px auto 16px;
+}
+.singbtn{
+    text-transform: uppercase;
+    background-color: #d4af7a;
+    border-color: #d4af7a;
+    color: white;
+}
+.facebtn{
+    background-color: white;
+    border-color: lightblue;
+    color: cyan;
+}
+span{
+    color: rgb(21, 78, 157);
+    font-weight: 600;
+}
+label[for="pass"]{
+    padding-top: 34px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.new{
+    padding-top: 32px;
+    padding-bottom: 16px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.imgbtn{
+    display: block;
+    padding: 8px 16px;
+    border-radius: 16px;
+    margin: 42px auto;
+    border: 2px solid white;
+    font-size: 15px;
+    font-family: inherit;
+    color: white;
+    background: none;
+    transition: all ;
+}
+.imgbtn:hover{
+    background-color: rgb(71, 15, 16);
+    border: none
+}
